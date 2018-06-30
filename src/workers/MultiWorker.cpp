@@ -68,7 +68,7 @@ bool MultiWorker<N>::selfTest()
 #   ifndef XMRIG_NO_SUMO
     if (m_thread->algorithm() == xmrig::CRYPTONIGHT_HEAVY) {
         return verify(xmrig::VARIANT_0,   test_output_v0_heavy) &&
-               verify(xmrig::VARIANT_XHV, test_output_xhv_heavy);
+               verify(xmrig::VARIANT_ITA, test_output_ita_heavy);
     }
 #   endif
 

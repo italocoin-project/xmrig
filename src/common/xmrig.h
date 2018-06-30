@@ -64,7 +64,7 @@ enum Variant {
     VARIANT_IPBC = 2,  // Modified CryptoNight Lite variant 1 with XOR (IPBC/TUBE only)
     VARIANT_XTL  = 3,  // Modified CryptoNight variant 1 (Stellite only)
     VARIANT_MSR  = 4,  // Modified CryptoNight variant 1 (Masari only)
-    VARIANT_XHV  = 5,  // Modified CryptoNight-Heavy (Haven Protocol only)
+    VARIANT_ITA  = 5,  // Modified CryptoNight-Heavy (Haven Protocol only)
     VARIANT_MAX
 };
 

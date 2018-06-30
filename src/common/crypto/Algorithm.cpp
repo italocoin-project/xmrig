@@ -70,7 +70,7 @@ static AlgoData const algorithms[] = {
 #   ifndef XMRIG_NO_SUMO
     { "cryptonight-heavy",     "cn-heavy",     xmrig::CRYPTONIGHT_HEAVY, xmrig::VARIANT_0    },
     { "cryptonight-heavy/0",   "cn-heavy/0",   xmrig::CRYPTONIGHT_HEAVY, xmrig::VARIANT_0    },
-    { "cryptonight-heavy/xhv", "cn-heavy/xhv", xmrig::CRYPTONIGHT_HEAVY, xmrig::VARIANT_XHV  },
+    { "cryptonight-heavy/ita", "cn-heavy/ita", xmrig::CRYPTONIGHT_HEAVY, xmrig::VARIANT_ITA  },
 #   endif
 };
 
@@ -94,7 +94,7 @@ static const char *variants[] = {
     "ipbc",
     "xtl",
     "msr",
-    "xhv"
+    "ita"
 };
 
 

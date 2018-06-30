@@ -329,7 +329,7 @@ void Pool::rebuild()
     addVariant(xmrig::VARIANT_XTL);
     addVariant(xmrig::VARIANT_IPBC);
     addVariant(xmrig::VARIANT_MSR);
-    addVariant(xmrig::VARIANT_XHV);
+    addVariant(xmrig::VARIANT_ITA);
     addVariant(xmrig::VARIANT_AUTO);
 #   endif
 }

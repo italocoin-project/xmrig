@@ -112,7 +112,7 @@ template<> inline constexpr uint32_t cn_select_iter<CRYPTONIGHT_LITE, VARIANT_0>
 template<> inline constexpr uint32_t cn_select_iter<CRYPTONIGHT_LITE, VARIANT_1>()    { return CRYPTONIGHT_LITE_ITER; }
 template<> inline constexpr uint32_t cn_select_iter<CRYPTONIGHT_LITE, VARIANT_IPBC>() { return CRYPTONIGHT_LITE_ITER; }
 template<> inline constexpr uint32_t cn_select_iter<CRYPTONIGHT_HEAVY, VARIANT_0>()   { return CRYPTONIGHT_HEAVY_ITER; }
-template<> inline constexpr uint32_t cn_select_iter<CRYPTONIGHT_HEAVY, VARIANT_XHV>() { return CRYPTONIGHT_HEAVY_ITER; }
+template<> inline constexpr uint32_t cn_select_iter<CRYPTONIGHT_HEAVY, VARIANT_ITA>() { return CRYPTONIGHT_HEAVY_ITER; }
 
 
 inline uint32_t cn_select_iter(Algo algorithm, Variant variant)
@@ -142,12 +142,12 @@ template<> inline constexpr bool cn_is_monero<VARIANT_1>()     { return true; }
 template<> inline constexpr bool cn_is_monero<VARIANT_IPBC>()  { return true; }
 template<> inline constexpr bool cn_is_monero<VARIANT_XTL>()   { return true; }
 template<> inline constexpr bool cn_is_monero<VARIANT_MSR>()   { return true; }
-template<> inline constexpr bool cn_is_monero<VARIANT_XHV>()   { return false; }
+template<> inline constexpr bool cn_is_monero<VARIANT_ITA>()   { return false; }
 
 
 inline bool cn_is_monero(Variant variant)
 {
-    return variant > VARIANT_0 && variant < VARIANT_XHV;
+    return variant > VARIANT_0 && variant < VARIANT_ITA;
 }
 
 
