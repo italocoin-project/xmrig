@@ -173,7 +173,7 @@ xmrig::Variant Job::variant() const
         return xmrig::VARIANT_1;
     }
 
-    if (m_algorithm.variant() == xmrig::VARIANT_ITA && m_blob[0] < 3) {
+    if (m_algorithm.variant() == xmrig::VARIANT_ITA && m_blob[0] < 10) {
         return xmrig::VARIANT_0;
     }
 
